@@ -65,10 +65,7 @@ bool test_equality(){
       demand_sum += demand[i];
   }
 
-  if(supply_sum == demand_sum)
-    return true;
-  else 
-    return false;
+  return supply_sum == demand_sum ? true : false;
 }
 
 // Function to print the output
