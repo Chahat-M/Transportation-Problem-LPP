@@ -62,7 +62,7 @@ bool test_equality(){
     if (i < source) {
       supply_sum += supply[i];
     }
-      demand_sum += demand[i];
+    demand_sum += demand[i];
   }
 
   return supply_sum == demand_sum ? true : false;
